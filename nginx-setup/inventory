@@ -1,0 +1,4 @@
+[web]
+webserver1 ansible_host=172.31.10.130
+webserver2 ansible_host=172.31.14.76
+

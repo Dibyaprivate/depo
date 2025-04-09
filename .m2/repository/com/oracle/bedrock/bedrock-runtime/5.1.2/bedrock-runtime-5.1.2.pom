@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.oracle.bedrock</groupId>
+  <artifactId>bedrock-runtime</artifactId>
+  <version>5.1.2</version>
+  <name>Bedrock for Runtime Management</name>
+  <description>Interfaces, classes and resources to construct, inspect and manage
+        runtime processes.</description>
+  <url>https://github.com/coherence-community/bedrock/bedrock-runtime</url>
+  <licenses>
+    <license>
+      <name>Common Development and Distribution License 1.0 ("CDDL")</name>
+      <url>http://opensource.org/licenses/CDDL-1.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Brian Oliver</name>
+      <email>brian.oliver@oracle.com</email>
+      <organization>Oracle Corporation</organization>
+    </developer>
+    <developer>
+      <name>Jonathan Knight (aka: Gridman)</name>
+      <email>jonathan.knight@oracle.com</email>
+      <organization>Oracle Corporation</organization>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/coherence-community/oracle-bedrock.git/bedrock-runtime</connection>
+    <developerConnection>scm:git:https://github.com/coherence-community/oracle-bedrock.git/bedrock-runtime</developerConnection>
+    <tag>project-5.1.2</tag>
+    <url>https://github.com/coherence-community/oracle-bedrock.git/bedrock-runtime</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.oracle.bedrock</groupId>
+      <artifactId>bedrock-core</artifactId>
+      <version>5.1.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

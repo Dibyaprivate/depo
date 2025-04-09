@@ -1,0 +1,5 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Tue Apr 08 16:47:42 UTC 2025
+default-http\://repo1.maven.org/maven2/.lastUpdated=1744130862844
+http\://repo1.maven.org/maven2/.error=Could not transfer artifact org.sonatype.spice\:spice-parent\:pom\:10 from/to maven1 (http\://repo1.maven.org/maven2)\: Failed to transfer file\: http\://repo1.maven.org/maven2/org/sonatype/spice/spice-parent/10/spice-parent-10.pom. Return code is\: 501 , ReasonPhrase\:HTTPS Required.
+https\://repo.maven.apache.org/maven2/.lastUpdated=1744130862856

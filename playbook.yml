@@ -1,0 +1,40 @@
+- hosts: all
+  become: yes
+  tasks:
+    - name: Install git on RedHat
+      yum:
+        name: git
+        state: present
+      when: ansible_os_family == "RedHat"
+
+    - name: Install git on Debian
+      apt:
+        name: git
+        state: present
+      when: ansible_os_family == "Debian"
+
+    - name: Install httpd only on dev-1
+      yum:
+        name: httpd
+        state: present
+      when: ansible_nodename == "dev-1"
+
+    - name: Install mysql only on dev-2
+      yum:
+        name: mysql
+        state: present
+      when: ansible_nodename == "dev-2"
+
+    - name: Install python on all RedHat-based systems
+      yum:
+        name: python
+        state: present
+      when: ansible_os_family == "RedHat"
+    - name: printing a msg
+      debug:
+        msg: "my node name is: {{ansible_nodename}}, the os is: {{ansible_os_family}}, the package manager is: {{ansible_pkg_mgr}}, total cpus is: {{ansible_processor_cores}}, the total ram: {{ansible_memtotal_mb}}, free ram is: {{ansible_memfree_mb}}"
+
+    - name: Generate customized info file
+      template:
+        src: info.txt.j2
+        dest: /tmp/info_{{ inventory_hostname }}.txt

@@ -1,0 +1,5 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Tue Apr 08 16:47:47 UTC 2025
+default-http\://repo1.maven.org/maven2/.lastUpdated=1744130867469
+http\://repo1.maven.org/maven2/.error=Could not transfer artifact org.codehaus.plexus\:plexus-compiler-manager\:jar\:1.8.1 from/to maven1 (http\://repo1.maven.org/maven2)\: Failed to transfer file\: http\://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-manager/1.8.1/plexus-compiler-manager-1.8.1.jar. Return code is\: 501 , ReasonPhrase\:HTTPS Required.
+https\://repo.maven.apache.org/maven2/.lastUpdated=1744130867489

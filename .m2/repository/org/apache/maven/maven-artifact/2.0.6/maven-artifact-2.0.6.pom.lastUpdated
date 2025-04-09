@@ -1,0 +1,5 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Tue Apr 08 16:47:36 UTC 2025
+default-http\://repo1.maven.org/maven2/.lastUpdated=1744130856484
+http\://repo1.maven.org/maven2/.error=Could not transfer artifact org.apache.maven\:maven-artifact\:pom\:2.0.6 from/to maven1 (http\://repo1.maven.org/maven2)\: Failed to transfer file\: http\://repo1.maven.org/maven2/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.pom. Return code is\: 501 , ReasonPhrase\:HTTPS Required.
+https\://repo.maven.apache.org/maven2/.lastUpdated=1744130856498

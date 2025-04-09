@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.oracle.bedrock</groupId>
+  <artifactId>bedrock-core</artifactId>
+  <version>5.1.2</version>
+  <name>Bedrock Core</name>
+  <description>Core interfaces, classes and resources for the Bedrock modules.</description>
+  <url>https://github.com/coherence-community/bedrock/bedrock-core</url>
+  <licenses>
+    <license>
+      <name>Common Development and Distribution License 1.0 ("CDDL")</name>
+      <url>http://opensource.org/licenses/CDDL-1.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Brian Oliver</name>
+      <email>brian.oliver@oracle.com</email>
+      <organization>Oracle Corporation</organization>
+    </developer>
+    <developer>
+      <name>Jonathan Knight (aka: Gridman)</name>
+      <email>jonathan.knight@oracle.com</email>
+      <organization>Oracle Corporation</organization>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/coherence-community/oracle-bedrock.git/bedrock-core</connection>
+    <developerConnection>scm:git:https://github.com/coherence-community/oracle-bedrock.git/bedrock-core</developerConnection>
+    <tag>project-5.1.2</tag>
+    <url>https://github.com/coherence-community/oracle-bedrock.git/bedrock-core</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.glassfish</groupId>
+      <artifactId>javax.el</artifactId>
+      <version>3.0.1-b08</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>2.20.1</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>hamcrest-core</artifactId>
+          <groupId>org.hamcrest</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>

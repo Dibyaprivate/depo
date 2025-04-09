@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.oracle.bedrock</groupId>
+  <artifactId>bedrock-runtime-maven</artifactId>
+  <version>5.1.2</version>
+  <name>Bedrock for Maven</name>
+  <description>Maven Support for launching applications with Bedrock.</description>
+  <url>https://github.com/coherence-community/bedrock/bedrock-runtime-maven</url>
+  <licenses>
+    <license>
+      <name>Common Development and Distribution License 1.0 ("CDDL")</name>
+      <url>http://opensource.org/licenses/CDDL-1.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Brian Oliver</name>
+      <email>brian.oliver@oracle.com</email>
+      <organization>Oracle Corporation</organization>
+    </developer>
+    <developer>
+      <name>Jonathan Knight (aka: Gridman)</name>
+      <email>jonathan.knight@oracle.com</email>
+      <organization>Oracle Corporation</organization>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/coherence-community/oracle-bedrock.git/bedrock-runtime-maven</connection>
+    <developerConnection>scm:git:https://github.com/coherence-community/oracle-bedrock.git/bedrock-runtime-maven</developerConnection>
+    <tag>project-5.1.2</tag>
+    <url>https://github.com/coherence-community/oracle-bedrock.git/bedrock-runtime-maven</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.oracle.bedrock</groupId>
+      <artifactId>bedrock-runtime</artifactId>
+      <version>5.1.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.aether</groupId>
+      <artifactId>aether-api</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.aether</groupId>
+      <artifactId>aether-spi</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.aether</groupId>
+      <artifactId>aether-util</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.aether</groupId>
+      <artifactId>aether-impl</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.aether</groupId>
+      <artifactId>aether-connector-basic</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.aether</groupId>
+      <artifactId>aether-transport-file</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.aether</groupId>
+      <artifactId>aether-transport-http</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.maven</groupId>
+      <artifactId>maven-aether-provider</artifactId>
+      <version>3.3.9</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.maven</groupId>
+      <artifactId>maven-settings-builder</artifactId>
+      <version>3.3.9</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.perforce</groupId>
+      <artifactId>p4java</artifactId>
+      <version>2019.1.1889202</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.mycila</groupId>
+      <artifactId>license-maven-plugin</artifactId>
+      <version>3.0</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+</project>
